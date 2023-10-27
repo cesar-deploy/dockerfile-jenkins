@@ -1,7 +1,10 @@
 # Instalação de dependência
-apt update -y && apt install swapspace -y && apt install python3 -y && apt install python3-pip -y && apt install python-dev -y \ 
-apt install libmysqlclient-dev -y && apt install python3-venv -y && apt install build-essential -y && apt install libssl-dev -y \
-&& apt install libffi-dev -y && apt install unzip -y && apt install wget -y && apt-update -y && apt install vim -y
+apt update -y && apt install swapspace -y && apt install python3 -y && \
+apt install python3-pip -y && apt install python-dev -y && \
+apt install libmysqlclient-dev -y && apt install python3-venv -y && \
+apt install build-essential -y && apt install libssl-dev -y \
+&& apt install libffi-dev -y && apt install unzip -y && apt install wget -y && \
+apt-update -y && apt install vim -y
 
 
 # Fazendo Download do Repositorio Jenkins 

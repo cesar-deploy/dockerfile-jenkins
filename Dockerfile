@@ -4,7 +4,7 @@ FROM ubuntu
 
 # Diretorio aonde o Jenkins irá trabalhar
 
-WORKDIR $JENKINS_HOME/workspace/
+WORKDIR /root/.jenkins/
 
 # Copiando Script 
 
